@@ -1,0 +1,104 @@
+.main_information{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;  
+}
+
+.conteiner_information{
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 780px;
+    width: 100%;
+    padding: 40px;
+}
+
+.information{
+    text-align: center;
+    margin: .5em 0;
+}
+
+.name_fathername_foto{
+    display: flex;
+}
+
+.name_fathername{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.chart, .telefhone{
+    display: flex;
+}
+
+input{
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    background: #fff;
+    border-radius: 8px;
+    height: 64px;
+    font-size: 16px;
+    line-height: 20px;
+    outline: 0;
+    width: 100%;
+    color: #333;
+    font-weight: bold;
+    margin: .5em 0;
+}
+
+/* input[type='file']{
+    display: none;
+} */
+
+/* label{
+    display: block;
+    height: 100%;
+    text-align: center;
+    box-shadow: inset 0 1px 3px #ddd;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+} */
+
+.foto_download{
+    width: 35%;
+    margin-left: .8em;
+    position: relative;
+}
+
+.label_foto{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.foto_download img{
+    border-radius: 10px;
+    margin-left: 30%;
+}
+
+
+.result_btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.btn_res{
+    background: #ffea2e; font-weight: bold;
+    line-height: 20px;
+    font-size: 16px;
+    color: #333;
+    border: 0;
+    border-radius: .5em;
+    padding: 2em 4em;
+    cursor: pointer;
+    transition: background .5s;
+  }
+  
+.btn_res:hover {
+      background: #f2de2a;
+}
