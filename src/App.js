@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Main change='Cоставить резюме'/>}/>
+        <Route path='/resume_konstructor' element={<Main change='Cоставить резюме'/>}/>
         <Route path='/resume' element={<Resume setPreview={setPreview} preview={preview} formData={formData} setFormData={setFormData} />}/>
         <Route path='result' element={<Result preview={preview} formData={formData}/>}/>
       </Routes>
